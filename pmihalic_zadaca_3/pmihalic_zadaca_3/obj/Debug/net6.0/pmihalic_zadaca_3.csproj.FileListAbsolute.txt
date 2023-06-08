@@ -1,0 +1,15 @@
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\bin\Debug\net6.0\pmihalic_zadaca_3.exe
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\bin\Debug\net6.0\pmihalic_zadaca_3.deps.json
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\bin\Debug\net6.0\pmihalic_zadaca_3.runtimeconfig.json
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\bin\Debug\net6.0\pmihalic_zadaca_3.dll
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\bin\Debug\net6.0\pmihalic_zadaca_3.pdb
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\obj\Debug\net6.0\pmihalic_zadaca_3.csproj.AssemblyReference.cache
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\obj\Debug\net6.0\pmihalic_zadaca_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\obj\Debug\net6.0\pmihalic_zadaca_3.AssemblyInfoInputs.cache
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\obj\Debug\net6.0\pmihalic_zadaca_3.AssemblyInfo.cs
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\obj\Debug\net6.0\pmihalic_zadaca_3.csproj.CoreCompileInputs.cache
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\obj\Debug\net6.0\pmihalic_zadaca_3.dll
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\obj\Debug\net6.0\refint\pmihalic_zadaca_3.dll
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\obj\Debug\net6.0\pmihalic_zadaca_3.pdb
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\obj\Debug\net6.0\pmihalic_zadaca_3.genruntimeconfig.cache
+D:\Fakultet organizacije i informatike\9. SEMESTAR\UzDiz\zadaca3\pmihalic_zadaca_3\pmihalic_zadaca_3\obj\Debug\net6.0\ref\pmihalic_zadaca_3.dll

@@ -1,0 +1,69 @@
+﻿using pmihalic_zadaca_3.klase;
+using pmihalic_zadaca_3.Visitor;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.ConstrainedExecution;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace pmihalic_zadaca_3.ChainOfResponsibility
+{
+    public class RaspodjelaBrod5 : LanacRaspodjelaPutnika
+    {
+
+        private LanacRaspodjelaPutnika lanac;
+        public void raspodjeli(Putnici putnici, List<Brod> listaBrodova)
+        {
+            List<Brod> brodovi = new List<Brod>();
+            foreach (Brod brod in listaBrodova)
+            {
+                brodovi.Add(brod);
+            }
+            Brod najveciBrod = null;
+            int najveciKapacitet = 0;
+
+            foreach (Brod brod in brodovi)
+            {
+                if(najveciKapacitet < brod.Kapacitet_putnika)
+                {
+                    najveciBrod = brod;
+                    najveciKapacitet = brod.Kapacitet_putnika;
+                }
+            }
+
+            if(putnici.getBrojPutnika() >= najveciKapacitet)
+            {
+                Console.WriteLine(najveciBrod.Kapacitet_putnika + " putnika raspoređeno na brod " + najveciBrod.Oznaka_broda + " - " +najveciBrod.Naziv);
+                brodovi.Remove(najveciBrod);
+                int ostatakPutnika = putnici.getBrojPutnika() - najveciBrod.Kapacitet_putnika;
+            }
+            else
+            {
+                Brod najefikasnijiBrod = null;
+                int najmanjiZadovoljiviKapacitet = 100000;
+                foreach (Brod brod in brodovi)
+                {
+                    if(brod.Kapacitet_putnika > putnici.getBrojPutnika())
+                    {
+                        if(brod.Kapacitet_putnika < najmanjiZadovoljiviKapacitet)
+                        {
+                            najmanjiZadovoljiviKapacitet = brod.Kapacitet_putnika;
+                            najefikasnijiBrod = brod;
+                        }
+                    }
+                }
+
+                if (najefikasnijiBrod != null && putnici.getBrojPutnika() != 0)
+                {
+                    Console.WriteLine(putnici.getBrojPutnika() + " putnika raspoređeno na brod " + najefikasnijiBrod.Oznaka_broda + " - " + najefikasnijiBrod.Naziv + " (" + najefikasnijiBrod.Kapacitet_putnika+ ")");
+                }
+            }
+        }
+
+        public void setNextChain(LanacRaspodjelaPutnika sljedeciLanac)
+        {
+            this.lanac = sljedeciLanac;
+        }
+    }
+}
